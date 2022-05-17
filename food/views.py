@@ -6,6 +6,6 @@ def index(request):
 
 def pst(request):
     
-    sprava = request.GET["sprava"]
+    sprava = request.POST["sprava"]
     
     return render(request,'index.html',{'sprava':sprava})
