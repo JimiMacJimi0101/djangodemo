@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 def index(request):
     return render(request, 'food/index.html', context=None)
 
-def send(request):
+def pst(request):
     
     sprava = request.GET["sprava"]
     
